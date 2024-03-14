@@ -25,9 +25,7 @@ class Fournisseur{
 }
 
 $a=new Fournisseur ("1","four1");
-$b=new Fournisseur ("12","four12");
-$c="$a.$b";
-echo "<table> $c</table>";
-//echo "<table> $b</table>";
+$b=new Fournisseur ("2","four2");
+$c=new Fournisseur ("3","four3");
 
 ?>

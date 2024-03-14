@@ -5,7 +5,7 @@ class Etudiant{
         $this->nom =$nom;
         $this->prenom =$prenom;
     }
-    public function __toString(){
+    public function __toString()   {
         $s = "Le nom et le prenom de l'etudiant est :<br>
         Nom: $this->nom <br>
         Prénom: $this->prenom <br>";

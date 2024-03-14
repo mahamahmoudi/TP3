@@ -1,8 +1,8 @@
 <?php
 class Article{
-    private $lib,$ref,$PV,$prix,$qte,$four;
+    private $ref,$lib,$four,$PV,$prix,$qte;
 
-    function __construct($lib,$ref,$PV,$prix,$four,$qte){
+    function __construct($ref,$lib,$four,$PV,$prix,$qte){
         $this->ref=$ref;
         $this->lib=$lib;
         $this->four=$four;
@@ -37,8 +37,7 @@ class Article{
 
         }
         $r.="</ul></td>";
-        $r.="<td>$this->prix</td>
-        <td>$this->qte</td></tr>";
+        $r.="<td>$this->prix</td><td>$this->qte</td></tr>";
         return $r;
     }
 }

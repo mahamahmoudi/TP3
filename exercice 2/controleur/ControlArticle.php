@@ -30,6 +30,7 @@ if(isset($_GET["ref"])){
     $qte=$_GET["qte"];    
 
     $art=new Article($ref,$lib,$fours,$ptVentes,$prix,$qte);
+    //var_dump($art);
     echo "$art</table>";
 }
 else echo"Il faut passer par le formulaire!!";

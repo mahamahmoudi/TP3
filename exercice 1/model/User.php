@@ -18,7 +18,7 @@ class User{
     }
     public function __toString() {
         $s="Connection réussi avec votre login :".$this->log."<br>";
-        return $s;
+        return $s;///,,,,,,,,,,,,,,,,,,
     }
     
     public function connect(){
